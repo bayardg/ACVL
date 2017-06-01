@@ -1,0 +1,7 @@
+Pour lancer le programme 
+
+Lancez dans un terminal : 
+ant -f . -Dnb.internal.action.name=rebuild clean jar 
+puis : 
+java -cp dist/acvl.jar:jar/* Simulation 
+
